@@ -1,0 +1,8 @@
+<Sumus>
+    <DBDirectory>GM</DBDirectory>
+    <WalletsDirectory>wallets</WalletsDirectory>
+    <ClearDB>no</ClearDB>
+    <NodeWalletPassword>goldmint</NodeWalletPassword>
+    <ClearTransactionPoolOnNewBlock>yes</ClearTransactionPoolOnNewBlock>
+    <UseSignedMessages>yes</UseSignedMessages>
+</Sumus>
