@@ -4,6 +4,7 @@ yum -y install svn
 cd /tmp/
 svn checkout https://github.com/Goldmint/sumus/trunk
 #lib
+Yum install -y libasan
 cd trunk
 tar xzvf lib_boost.166.tar.gz -C /usr/local/lib
 echo "/usr/local/lib" >> /etc/ld.so.conf
@@ -16,6 +17,7 @@ cd /opt/sumus/
 cp /tmp/trunk/sumus_start.sh /opt/sumus/
 chmod +x sumus_start.sh
 chmod +x ./shell-debug
+chmod +x ./shell
 mkdir wallets
 cp -Rnv /tmp/trunk/sumus.tar/* /tmp/trunk/sumus.tar/.[a-zA-Z0-9]* /opt/sumus
 #add sumus service
