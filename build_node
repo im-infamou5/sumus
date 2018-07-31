@@ -4,7 +4,7 @@ yum -y install svn
 cd /tmp/
 svn checkout https://github.com/Goldmint/sumus/trunk
 #lib
-Yum install -y libasan
+yum install -y libasan
 cd trunk
 tar xzvf lib_boost.166.tar.gz -C /usr/local/lib
 echo "/usr/local/lib" >> /etc/ld.so.conf
