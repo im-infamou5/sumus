@@ -16,14 +16,15 @@ mkdir sumus
 cd /opt/sumus/
 cp /tmp/trunk/sumus_start.sh /opt/sumus/
 chmod +x sumus_start.sh
-chmod +x ./shell-debug
-chmod +x ./shell
+chmod +x ./shell.gm-debug
+chmod +x ./shell.gm
 mkdir wallets
 cp -Rnv /tmp/trunk/sumus.tar/* /tmp/trunk/sumus.tar/.[a-zA-Z0-9]* /opt/sumus
 #add sumus service
 systemctl daemon-reload
 systemctl start sumus.service
 systemctl enable sumus.service
+systemctl restart sumus.service
 #add firewald rules
 firewall-cmd  --permanent --add-rich-rule='rule family="ipv4" port port=4010 protocol="tcp" accept'
 firewall-cmd  --permanent --add-rich-rule='rule family="ipv4" port port=50805 protocol="tcp" accept'
