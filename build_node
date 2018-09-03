@@ -11,7 +11,9 @@ echo "/usr/local/lib" >> /etc/ld.so.conf
 ldconfig
 #copy sumus 
 cp sumus.service /etc/systemd/system
+systemctl stop sumus.service
 cd /opt/
+rm -rf /sumus
 mkdir sumus
 cd /opt/sumus/
 cp /tmp/trunk/sumus_start.sh /opt/sumus/
