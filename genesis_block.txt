@@ -1,0 +1,31 @@
+//Supervisor wallet
+register-system-wallet PuNKfLaAHKaapEEq1CV1jeAPbFUhEHjdN493R6sCa5UgZ48tc SupervisorWallet
+//Transaction wallet system gm
+register-system-wallet z8ro4UHBsqLEV2VZfzjfdYzYsMrMCfMtxGWtyLVZRVdp3HbhQ OwnerWallet
+// register emission wallet for new commodity and utility tokens creation
+register-system-wallet 2qvCw52XQ4LMEM5AeQijDadWpPQjncfHR7pZBGv2rpf63dLK7g EmissionWallet
+//Automatically generated template block genesis from blockchain gm in 100 nodes
+//Wallet for node  00000
+transfer utility   2vhrqHwVw7m3xM4mi9JYjTeNTjZGv6MEWa87x3GxHLdsuWdeng 10000
+register-node      2vhrqHwVw7m3xM4mi9JYjTeNTjZGv6MEWa87x3GxHLdsuWdeng 95.179.130.91
+//Wallet for node  00001
+transfer utility   2knCgrjgVJmdMBDEpUEmkphfcTx4pAxCXQJFeiGtskx862h1WV 10000
+register-node      2knCgrjgVJmdMBDEpUEmkphfcTx4pAxCXQJFeiGtskx862h1WV 95.179.131.201
+//Wallet for node  00002
+transfer utility   2FgTkXM9qxshfRwhHeykxvUKoswzANgUZ7aoYbJvyHE5BReLZd 10000
+register-node      2FgTkXM9qxshfRwhHeykxvUKoswzANgUZ7aoYbJvyHE5BReLZd 95.179.171.207
+//Wallet for node  00003
+transfer utility   bpsQD5hVHR8dEHM3otdR9XkURuQ2DBFLsVxkL3HCEiKb6ptwS 10000
+register-node      bpsQD5hVHR8dEHM3otdR9XkURuQ2DBFLsVxkL3HCEiKb6ptwS 45.32.235.101
+//Wallet for node  00004
+transfer utility   2vcx1kg3exKKBHHCbuA7cF1boH2sEtLUTg29r64zTtQsfAPsu9 10000
+register-node      2vcx1kg3exKKBHHCbuA7cF1boH2sEtLUTg29r64zTtQsfAPsu9 45.76.95.101
+//Wallet for node  00005
+transfer utility   2TQxCU91wJ6YLuzuLshZDtQAB7MhBSWjJ16YXTMUutENUtdY6G 10000
+register-node      2TQxCU91wJ6YLuzuLshZDtQAB7MhBSWjJ16YXTMUutENUtdY6G 199.247.4.81
+//Wallet for node  00006
+transfer utility   2ZUV4UMYGayALPQDW2MH9W6FgbMZWHgmRXfQNdzApkjPm93Tef 10000
+register-node      2ZUV4UMYGayALPQDW2MH9W6FgbMZWHgmRXfQNdzApkjPm93Tef 95.179.161.242
+//Wallet for node  00007
+transfer utility   2SQeHfUY4tPFwbKxhCTQ85gzoUAgL41m4ca1QNYWCU4XhsmZ5K 10000
+register-node      2SQeHfUY4tPFwbKxhCTQ85gzoUAgL41m4ca1QNYWCU4XhsmZ5K 95.179.145.231
