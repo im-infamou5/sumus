@@ -13,9 +13,10 @@ cp /tmp/sumus.git/trunk/shell/linux/* /opt/sumus
 yes | cp /tmp/sumus.git/trunk/genesis_block.txt /etc/sumus
 chmod +x shell.gm
 #add firewald rules
-firewall-cmd  --permanent --add-rich-rule='rule family="ipv4" port port=4010 protocol="tcp" accept'
 firewall-cmd  --permanent --add-rich-rule='rule family="ipv4" port port=50555 protocol="tcp" accept'
 systemctl restart firewalld
+systemctl enable sumus
+systemctl start sumus
 rm -rf /tmp/sumus.git/
 
 
