@@ -16,7 +16,7 @@ chmod +x shell.gm
 firewall-cmd  --permanent --add-rich-rule='rule family="ipv4" port port=4010 protocol="tcp" accept'
 firewall-cmd  --permanent --add-rich-rule='rule family="ipv4" port port=50555 protocol="tcp" accept'
 systemctl restart firewalld
-rm -rf /tmp/sumus_update.git/
+rm -rf /tmp/sumus.git/
 
 
 
