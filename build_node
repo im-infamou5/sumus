@@ -9,7 +9,7 @@ cd /opt/
 mkdir sumus
 cd /opt/sumus/
 yum install -y /tmp/sumus/server/sumus-*.rpm
-cp /tmp/sumus.git/shell/linux/* /opt/sumus
+cp /tmp/sumus/shell/linux/* /opt/sumus
 yes | cp /tmp/sumus/genesis_block.txt /etc/sumus
 chmod +x shell.gm
 #add firewald rules
