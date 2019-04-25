@@ -1,8 +1,8 @@
 #!/bin/bash
 #svn
-yum -y install svn
+yum -y install git
 cd /tmp/
-svn checkout https://github.com/Goldmint/sumus.git
+git clone https://github.com/Goldmint/sumus.git
 cd /tmp/sumus.git/trunk/
 tar -zxvf /tmp/sumus.git/trunk/gm*.tgz
 cd /opt/
