@@ -3,21 +3,21 @@
 yum -y install git
 cd /tmp/
 git clone https://github.com/Goldmint/sumus.git
-cd /tmp/sumus.git/trunk/
-tar -zxvf /tmp/sumus.git/trunk/gm*.tgz
+cd /tmp/sumus
+tar -zxvf /tmp/sumus/gm*.tgz
 cd /opt/
 mkdir sumus
 cd /opt/sumus/
-yum install -y /tmp/sumus.git/trunk/server/sumus-*.rpm
-cp /tmp/sumus.git/trunk/shell/linux/* /opt/sumus
-yes | cp /tmp/sumus.git/trunk/genesis_block.txt /etc/sumus
+yum install -y /tmp/sumus/server/sumus-*.rpm
+cp /tmp/sumus.git/shell/linux/* /opt/sumus
+yes | cp /tmp/sumus/genesis_block.txt /etc/sumus
 chmod +x shell.gm
 #add firewald rules
 firewall-cmd  --permanent --add-rich-rule='rule family="ipv4" port port=50555 protocol="tcp" accept'
 systemctl restart firewalld
 systemctl enable sumus
 systemctl start sumus
-rm -rf /tmp/sumus.git/
+rm -rf /tmp/sumus/
 
 
 
